@@ -14,16 +14,25 @@ body {
   border-bottom: 1px #0082c3 solid;*/
 }
 
-.card-body {
+.card-body.bgImageOne {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
               rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat center;
     background-size: cover;
 }
-
-card-body {
-  background-image: url(images/runner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.card-body.bgImageTwo {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+              rgba(0,0,0,0.3) url('images/karate.jpg') no-repeat center;
+    background-size: cover;
+}
+.card-body.bgImageThree {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+              rgba(0,0,0,0.3) url('images/tent.jpg') no-repeat center;
+    background-size: cover;
+}
+.card-body.bgImageFour {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+              rgba(0,0,0,0.3) url('images/mountainbike.jpg') no-repeat center;
+    background-size: cover;
 }
 
 .st-paragraph-header {
@@ -43,11 +52,11 @@ card-body {
 
 .st-product-header {
   font-family: "Roboto Condensed", Helvetica, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-style: italic;
   font-weight: 300;
   font-variant: small-caps;
-  color: #575D5E;
+  color: #d3d3d3;
   text-align: center;
   transform: rotate(-5deg);
 }
@@ -103,6 +112,8 @@ a:hover{
 }
 
 
+/*css media queries*/
+
 @media only screen and (max-width: 768px) {
   .colorBar {
     background-color: #0082C3;
@@ -127,10 +138,25 @@ a:hover{
     position: absolute;
   }
 
-  .card-body {
+  .card-body.bgImageOne {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
                 rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat;
-    background-size: cover;
+      background-size: cover;
+  }
+  .card-body.bgImageTwo {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+                rgba(0,0,0,0.3) url('images/karate.jpg') no-repeat center;
+      background-size: cover;
+  }
+  .card-body.bgImageThree {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+                rgba(0,0,0,0.3) url('images/tent.jpg') no-repeat;
+      background-size: cover;
+  }
+  .card-body.bgImageFour {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+                rgba(0,0,0,0.3) url('images/mountainbike.jpg') no-repeat;
+      background-size: cover;
   }
 
   .enlarge {
