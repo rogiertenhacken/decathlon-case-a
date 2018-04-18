@@ -1,0 +1,118 @@
+.main {
+  max-width: 972px;
+  margin-top: 50px;
+}
+
+.card {
+  height:18rem;
+  border-radius: 0;
+  border: 1px #fff solid;
+  border-bottom: 1px #0082c3 solid;
+}
+
+.card-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+              rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+card-body {
+  background-image: url(images/runner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.st-paragraph-header {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  color: #0082c3;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.card-title {
+  font-variant: small-caps;
+  color: #0082C3;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.card-text {
+  font-variant: small-caps;
+  color: #575D5E;
+  text-align: center;
+  transform: rotate(-5deg);
+}
+
+.x1 {
+  background-color: #0082C3;
+  height: 10%;
+
+}
+
+.color-overlay {
+  background-color: #0082C3;
+  transform: skewY(5deg);
+  width: 100%;
+  height: 10%;
+  top: 85%;
+  position: absolute;
+}
+
+.color-overlay-reversed {
+  background-color: rgba(0, 130, 195, 0.3);
+  transform: skewY(-5deg);
+  width: 100%;
+  height: 12%;
+  top: 83%;
+  position: absolute;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.enlarge {
+  transition: all .5s ease-in-out;
+}
+.enlarge:hover {
+  transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 768px) {
+  .x1 {
+    background-color: #0082C3;
+    height: 15%;
+  }
+
+  .color-overlay {
+    background-color: #0082C3;
+    transform: skewY(5deg);
+    width: 100%;
+    height: 20%;
+    top: 75%;
+    position: absolute;
+  }
+
+  .card-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+                rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat;
+      background-size: cover;
+  }
+
+  .enlarge {
+    transition: none;
+  }
+  .enlarge:hover {
+    transform: none;
+  }
+
+}
