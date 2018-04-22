@@ -6,6 +6,7 @@
 .card {
   height: 18rem;
   border-radius: 0;
+  margin-bottom: 50px;
 }
 
 .card-body.bgImageOne {
@@ -13,16 +14,19 @@
               rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat center;
   background-size: cover;
 }
+
 .card-body.bgImageTwo {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
               rgba(0,0,0,0.3) url('images/karate.jpg') no-repeat center;
   background-size: cover;
 }
+
 .card-body.bgImageThree {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
               rgba(0,0,0,0.3) url('images/tent.jpg') no-repeat center;
   background-size: cover;
 }
+
 .card-body.bgImageFour {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
               rgba(0,0,0,0.3) url('images/mountainbike.jpg') no-repeat center;
@@ -81,7 +85,6 @@
 .colorBar {
   background-color: #0082C3;
   height: 10%;
-
 }
 
 .color-overlay {
@@ -113,11 +116,10 @@ a:hover{
 .enlarge {
   transition: all .5s ease-in-out;
 }
+
 .enlarge:hover {
   transform: scale(1.1);
 }
-
-
 
 
 /*css media queries*/
@@ -155,16 +157,19 @@ a:hover{
                 rgba(0,0,0,0.3) url('images/runner.jpg') no-repeat;
       background-size: cover;
   }
+
   .card-body.bgImageTwo {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
                 rgba(0,0,0,0.3) url('images/karate.jpg') no-repeat center;
       background-size: cover;
   }
+
   .card-body.bgImageThree {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
                 rgba(0,0,0,0.3) url('images/tent.jpg') no-repeat;
       background-size: cover;
   }
+
   .card-body.bgImageFour {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
                 rgba(0,0,0,0.3) url('images/mountainbike.jpg') no-repeat;
