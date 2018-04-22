@@ -21,7 +21,7 @@ Wat zou ik doen als ik meer tijd had om verder te werken aan deze opdracht?
 
 - ik zou de code zo maken dat er zo weinig mogelijk onderhoud / werkzaamheden aan gedaan moeten worden, dat zou ik zo doen:
 
-- Een api maken met daarin alle data over het evenement, zodat dit automatisch kan worden geladen in de cards.
+- een api maken met daarin alle data over het evenement, zodat dit automatisch kan worden geladen in de cards.
 
 - ik zou met Javascript automatisch de div’s laten generen n.a.v. de inhoud van de api. Als er twaalf evenementen in de api staan, dan worden er twaalf cards genereerd.
 
