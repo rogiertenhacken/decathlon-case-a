@@ -1,6 +1,7 @@
 # decathlon-case-a
 
 Case A
+
 Hier heb ik de vier ‘cards’ gemaakt als opwarmer. Deze opdracht was goed te doen en inderdaad een goede starter. 
 
 De link naar case-a:
@@ -9,6 +10,7 @@ https://www.draftwork.nl/case-a/index.html
 
 
 Case B
+
 Hier heb ik wat kritischer naar het design gekeken. Mijn eerste idee was om het design rustiger te maken. Dat kan door minder informatie te tonen en de informatie die er is wat beter te verdelen over de beschikbare ruimte. De slider heb ik ontdaan van alle tekst en terug gebracht naar beeld.
 
 Op de voorkant van de kaart staat de datum, op de achterkant staat de stad waar het evenement is. De kaarten hebben een hover waardoor ze 180 graden draaien.
